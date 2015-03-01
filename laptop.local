@@ -1,0 +1,7 @@
+#!/bin/sh
+
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+
+fancy_echo "Installing xmind"
+brew cask install xmind
