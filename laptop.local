@@ -5,3 +5,6 @@ brew_install_or_upgrade 'brew-cask'
 
 fancy_echo "Installing xmind"
 brew cask install xmind
+
+fancy_echo "Installing omnigraffle"
+brew cask install omnigraffle
