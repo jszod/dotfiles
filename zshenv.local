@@ -1,0 +1,3 @@
+# Specify cask option
+#  --appdir specifies where symlinks to application will be created
+export HOMEBRREW_CASK_OPTS="--appdir=/Applications"

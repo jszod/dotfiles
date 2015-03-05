@@ -1,8 +1,11 @@
 #!/bin/sh
 
+brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
 brew cask install xmind
 brew cask install omnigraffle
 brew cask install iterm2
 brew cask install appcleaner
+brew cask install evernote
+
