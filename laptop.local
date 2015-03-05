@@ -1,13 +1,8 @@
 #!/bin/sh
 
-brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
-fancy_echo "Installing xmind"
 brew cask install xmind
-
-fancy_echo "Installing omnigraffle"
 brew cask install omnigraffle
-
-fancy_echo "Installing iTerm2"
 brew cask install iterm2
+brew cask install appcleaner
