@@ -1,14 +1,21 @@
 #!/bin/sh
 
+# Note: run rcup to update .dotfile afer editing this file
+
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
 brew cask install appcleaner
 brew cask install atom
-brew cask install balsamiq-mockups
+
+# Download for balsamiq-mockups failing for some reason
+# Try again in the future
+# brew cask install balsamiq-mockups
+
 brew cask install evernote
 brew cask install iterm2
 brew cask install omnigraffle
+brew cask install screenhero
 brew cask install sourcetree
 brew cask install spotify
 brew cask install sublime-text
