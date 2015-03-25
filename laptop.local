@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Note: run rcup to update .dotfile afer editing this file
+# run sh ~/src/laptop/mac 2>&1 | tee ~/laptop.log
 
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
@@ -28,6 +29,7 @@ brew_install_or_upgrade 'go'
 ## Atom Customizations
 # General packages
 apm install markdown-pdf
+apm install vim-mode
 
 # Elixir packages
 apm install language-elixir
