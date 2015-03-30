@@ -29,7 +29,6 @@ brew_install_or_upgrade 'go'
 ## Atom Customizations
 # General packages
 apm install markdown-pdf
-apm install vim-mode
 
 # Elixir packages
 apm install language-elixir
