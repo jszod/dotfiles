@@ -1,6 +1,4 @@
 " Local vim cusomizations
 "
-" Color scheme
-set background=dark
-colorscheme solarized
-highlight Normal ctermbg=Black
+
+colorscheme github

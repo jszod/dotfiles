@@ -1,3 +1,13 @@
 # Specify cask option
 #  --appdir specifies where symlinks to application will be created
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Alias commands
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall \
+Finder /System/Library/CoreServices/Finder.app'
+
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
+Finder /System/Library/CoreServices/Finder.app'
+
+
+# /System/Library/CoreServices/Finder.app

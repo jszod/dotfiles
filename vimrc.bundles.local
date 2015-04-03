@@ -1,7 +1,4 @@
 " Localized vimrc.bundles
 
-" Color schemes
-Plugin 'altercation/vim-colors-solarized'
-
 " Elixir plugins
 Plugin 'elixir-lang/vim-elixir'
