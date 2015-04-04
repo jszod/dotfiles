@@ -36,3 +36,6 @@ apm install linter
 
 # Go packages
 apm install go-plus
+
+# Gems
+gem_install_or_update 'travis'
