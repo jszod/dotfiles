@@ -22,6 +22,9 @@ brew cask install spotify
 brew cask install sublime-text
 brew cask install skype
 brew cask install xmind
+brew cask install flip4mac
+brew cask install onyx
+brew cask install coconutbattery
 
 brew_install_or_upgrade 'elixir'
 brew_install_or_upgrade 'go'
