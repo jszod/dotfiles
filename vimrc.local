@@ -1,4 +1,6 @@
 " Local vim cusomizations
 "
-
 colorscheme github
+
+" Airline status bar setting
+let g:airline#extensions#tabline#enabled = 1 

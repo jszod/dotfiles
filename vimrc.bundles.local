@@ -2,3 +2,6 @@
 
 " Elixir plugins
 Plugin 'elixir-lang/vim-elixir'
+
+" VIM utilityl plugins
+Plugin 'bling/vim-airline'
