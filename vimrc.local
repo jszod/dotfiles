@@ -3,4 +3,7 @@
 colorscheme github
 
 " Airline status bar setting
-let g:airline#extensions#tabline#enabled = 1 
+let g:airline#extensions#tabline#enabled = 1
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete  " Omni automcompletion
