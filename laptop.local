@@ -4,7 +4,8 @@
 # run sh ~/src/laptop/mac 2>&1 | tee ~/laptop.log
 
 brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
+# brew_install_or_upgrade 'brew-cask'
+brew_install_or_upgrade 'mysql'
 
 brew cask install appcleaner
 brew cask install atom
@@ -13,6 +14,7 @@ brew cask install atom
 # Try again in the future
 # brew cask install balsamiq-mockups
 
+brew cask install docker-machine
 brew cask install evernote
 brew cask install iterm2
 brew cask install omnigraffle
