@@ -13,7 +13,7 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/szodfj/.gitignore
   autocrlf = input
 [merge]
   ff = only
