@@ -1,12 +1,13 @@
 #!/bin/sh
 
-# Note: run rcup to update .dotfile afer editing this file
-# run sh ~/src/laptop/mac 2>&1 | tee ~/laptop.log
+# Note: run $ rcup to update .dotfile afer editing this file
+# run $ sh ~/src/laptop/mac 2>&1 | tee ~/laptop.log
 
 brew_tap 'caskroom/cask'
 # brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'mysql'
+brew cask install wercker
 
 brew cask install appcleaner
 brew cask install atom
