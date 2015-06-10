@@ -5,9 +5,11 @@
 
 brew_tap 'caskroom/cask'
 # brew_install_or_upgrade 'brew-cask'
+brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'mysql'
 brew cask install wercker
+brew cask install vagrant
 
 brew cask install appcleaner
 brew cask install atom
