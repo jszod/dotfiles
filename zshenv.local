@@ -9,5 +9,8 @@ Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
 Finder /System/Library/CoreServices/Finder.app'
 
+# Golang environment variables
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin
 
 # /System/Library/CoreServices/Finder.app
