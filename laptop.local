@@ -37,7 +37,7 @@ brew cask install virtualbox
 brew cask install wercker
 brew cask install xmind
 
-# Add the Mac OSX CLI to /usr/local/bin (YMMV)
+# Add the Mac OSX Wercker CLI to /usr/local/bin (YMMV)
 curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/darwin_amd64/wercker -o /usr/local/bin/wercker
 
 ## Atom Customizations
@@ -53,3 +53,4 @@ apm install go-plus
 
 # Gems
 gem_install_or_update 'travis'
+gem_install_or_update 'lunchy'
