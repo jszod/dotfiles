@@ -13,4 +13,7 @@ Finder /System/Library/CoreServices/Finder.app'
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 
+# Monogdb environment variables
+export PATH=$PATH:/usr/local/Cellar/mongodb/3.0.4/bin
+
 # /System/Library/CoreServices/Finder.app
