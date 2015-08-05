@@ -28,6 +28,7 @@ brew cask install docker-machine
 brew cask install evernote
 brew cask install flip4mac
 brew cask install iterm2
+brew cask install java
 brew cask install malwarebytes-anti-malware
 brew cask install omnigraffle
 brew cask install onyx
