@@ -27,6 +27,8 @@ brew cask install coconutbattery
 brew cask install docker-machine
 brew cask install evernote
 brew cask install flip4mac
+brew cask install google-chrome
+brew cask install google-drive
 brew cask install iterm2
 brew cask install java
 brew cask install malwarebytes-anti-malware
