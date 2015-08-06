@@ -13,7 +13,7 @@ brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'mongodb'
 # Create data directory for Mongo
 if [ ! -d "/data/db" ]; then
-  su mkdir -p "/data/db"
+  sudo mkdir -p "/data/db"
 fi
 
 brew_install_or_upgrade 'mysql'
