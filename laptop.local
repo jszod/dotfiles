@@ -4,7 +4,7 @@
 # run $ sh ~/code/laptop/mac 2>&1 | tee ~/laptop.log
 
 brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
+# brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'elixir'
 brew_install_or_upgrade 'go'
@@ -22,6 +22,7 @@ brew cask install appcleaner
 brew cask install atom
 # Download for balsamiq-mockups failing for some reason
 # Try again in the future brew cask install balsamiq-mockups
+brew cask instlal balsamiq-mockups
 brew cask install coconutbattery
 brew cask install docker-machine
 brew cask install evernote

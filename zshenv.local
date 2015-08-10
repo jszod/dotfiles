@@ -2,6 +2,9 @@
 #  --appdir specifies where symlinks to application will be created
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+
+export RCRC=$HOME/dotfiles/rcrc rcup
+
 # Alias commands
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall \
 Finder /System/Library/CoreServices/Finder.app'
