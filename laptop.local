@@ -22,11 +22,12 @@ brew cask install appcleaner
 brew cask install atom
 # Download for balsamiq-mockups failing for some reason
 # Try again in the future brew cask install balsamiq-mockups
-brew cask instlal balsamiq-mockups
+brew cask install balsamiq-mockups
 brew cask install coconutbattery
 brew cask install docker-machine
 brew cask install easyfind
 brew cask install evernote
+brew cask install flash-player
 brew cask install flip4mac
 brew cask install google-chrome
 brew cask install google-drive
@@ -38,6 +39,7 @@ brew cask install onyx
 brew cask install opera
 brew cask install screenhero
 brew cask install shiftit
+brew cask install sketchupviewer
 brew cask install skype
 brew cask install slack
 brew cask install sophos-anti-virus-home-edition
