@@ -26,6 +26,7 @@ brew cask install balsamiq-mockups
 brew cask install coconutbattery
 brew cask install docker-machine
 brew cask install easyfind
+brew cask install emacs
 brew cask install evernote
 brew cask install flash-player
 brew cask install flip4mac
