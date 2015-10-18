@@ -17,6 +17,7 @@ if [ ! -d "/data/db" ]; then
 fi
 
 brew_install_or_upgrade 'mysql'
+brew_install_or_upgrade 'tor'
 
 brew cask install appcleaner
 brew cask install atom
@@ -28,6 +29,7 @@ brew cask install docker-machine
 brew cask install easyfind
 brew cask install emacs
 brew cask install evernote
+brew cask install Firefox
 brew cask install flash-player
 brew cask install flip4mac
 brew cask install google-chrome
@@ -47,6 +49,7 @@ brew cask install sophos-anti-virus-home-edition
 brew cask install sourcetree
 brew cask install spotify
 brew cask install sublime-text
+brew cask install torbrowser
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
