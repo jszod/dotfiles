@@ -37,6 +37,7 @@ brew cask install google-drive
 brew cask install iterm2
 brew cask install java
 brew cask install malwarebytes-anti-malware
+brew cask install mysqlworkbench
 brew cask install omnigraffle
 brew cask install onyx
 brew cask install opera
