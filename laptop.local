@@ -16,6 +16,7 @@ if [ ! -d "/data/db" ]; then
   sudo mkdir -p "/data/db"
 fi
 
+brew_install_or_upgrade 'boost'
 brew_install_or_upgrade 'mysql'
 brew_install_or_upgrade 'tor'
 
@@ -64,10 +65,14 @@ curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/darwin_amd64/werc
 # General packages
 apm install markdown-pdf
 apm install term
+apm install atom-markdown-katex
 
 # Elixir packages
+apm install autocomplete-elixir
 apm install language-elixir
 apm install linter
+apm install linter-elixirc
+
 
 # Go packages
 apm install go-plus
