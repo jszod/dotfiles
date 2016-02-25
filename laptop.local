@@ -7,6 +7,7 @@ brew_tap 'caskroom/cask'
 # brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'elixir'
+brew_install_or_upgrade 'erlang'
 brew_install_or_upgrade 'go'
 brew_install_or_upgrade 'git-flow'
 
@@ -63,9 +64,11 @@ curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/darwin_amd64/werc
 
 ## Atom Customizations
 # General packages
+apm install atom-markdown-katex
+apm install autocomplete-plus
 apm install markdown-pdf
 apm install term
-apm install atom-markdown-katex
+
 
 # Elixir packages
 apm install autocomplete-elixir
