@@ -26,6 +26,7 @@ brew cask install atom
 # Download for balsamiq-mockups failing for some reason
 # Try again in the future brew cask install balsamiq-mockups
 brew cask install balsamiq-mockups
+brew cask install cloudfoundry-cli
 brew cask install coconutbattery
 brew cask install docker-machine
 brew cask install easyfind
