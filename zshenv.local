@@ -13,7 +13,9 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
 Finder /System/Library/CoreServices/Finder.app'
 
 # Golang environment variables
-export GOPATH=$HOME/code/go
+export GOROOT=/usr/local/cellar/go/1.4.2/libexec
+export PATH=$PATH:$GOROOT
+GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 
 # Monogdb environment variables
