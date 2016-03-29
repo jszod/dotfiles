@@ -12,6 +12,10 @@ Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
 Finder /System/Library/CoreServices/Finder.app'
 
+# Elixir environment variables
+export ELIXIR_ROOT=/usr/local/opt/elixir
+export PATH=$PATH:$ELIXIR_ROOT/bin
+
 # Golang environment variables
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/g.drive/code/go
@@ -20,7 +24,8 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
 
 # Monogdb environment variables
-export PATH=$PATH:/usr/local/Cellar/mongodb/3.0.4/bin
+export MONGODB_ROOT=/usr/local/opt/mongodb
+export PATH=$PATH:$MONGODB_ROOT/bin
 
 # NPM path
 export PATH=/usr/local/share/npm/bin:$PATH
