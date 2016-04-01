@@ -11,7 +11,9 @@ brew_install_or_upgrade 'erlang'
 brew_install_or_upgrade 'go'
 brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'hugo'
+brew_install_or_upgrade 'postgresql'
 brew_install_or_upgrade 'tree'
+brew_install_or_upgrade 'wget'
 
 brew_install_or_upgrade 'mongodb'
 # Create data directory for Mongo
@@ -46,6 +48,7 @@ brew cask install mysqlworkbench
 brew cask install omnigraffle
 brew cask install onyx
 brew cask install opera
+brew cask install pgadmin3
 brew cask install screenhero
 brew cask install shiftit
 brew cask install sketchupviewer
