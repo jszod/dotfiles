@@ -4,6 +4,8 @@
 # run $ sh ~/code/laptop/mac 2>&1 | tee ~/laptop.log
 
 brew_tap 'caskroom/cask'
+brew_tap 'homebrew/services'
+
 # brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'elixir'
