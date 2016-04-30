@@ -5,9 +5,11 @@
 
 brew_tap 'caskroom/cask'
 brew_tap 'homebrew/services'
+brew_tap 'cloudfoundry/tap'
 
 # brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'boot2docker'
+brew_install_or_upgrade 'cf-cli'
 brew_install_or_upgrade 'elixir'
 brew_install_or_upgrade 'erlang'
 brew_install_or_upgrade 'go'
@@ -64,6 +66,7 @@ brew cask install torbrowser
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 brew cask install wercker
 brew cask install xmind
 
