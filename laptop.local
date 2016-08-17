@@ -12,7 +12,6 @@ brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'cf-cli'
 brew_install_or_upgrade 'elixir'
 brew_install_or_upgrade 'erlang'
-brew_install_or_upgrade 'emacs --with-cocoa'
 brew_install_or_upgrade 'go'
 brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'hugo'
@@ -32,16 +31,13 @@ brew_install_or_upgrade 'tor'
 
 brew cask install appcleaner
 brew cask install atom
-# Download for balsamiq-mockups failing for some reason
-# Try again in the future brew cask install balsamiq-mockups
 brew cask install balsamiq-mockups
-brew cask install cloudfoundry-cli
 brew cask install coconutbattery
-brew cask install docker-machine
+brew cask install docker
 brew cask install easyfind
 brew cask install emacs
 brew cask install evernote
-brew cask install Firefox
+brew cask install firefox
 brew cask install flash-player
 brew cask install flip4mac
 brew cask install google-chrome
@@ -60,7 +56,7 @@ brew cask install shiftit
 brew cask install sketchupviewer
 brew cask install skype
 brew cask install slack
-brew cask install sophos-anti-virus-home-edition
+# brew cask install sophos-anti-virus-home-edition had an issue, sack no longer available
 brew cask install sourcetree
 brew cask install spotify
 brew cask install sublime-text

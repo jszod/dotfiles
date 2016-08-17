@@ -1,6 +1,6 @@
 # Specify cask option
 #  --appdir specifies where symlinks to application will be created
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+## export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 
 export RCRC=$HOME/dotfiles/rcrc rcup
