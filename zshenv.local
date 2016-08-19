@@ -12,6 +12,8 @@ Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
 Finder /System/Library/CoreServices/Finder.app'
 
+alias emacs='open -a /Applications/Emacs.app $1'
+
 # Elixir environment variables
 export ELIXIR_ROOT=/usr/local/opt/elixir
 export PATH=$PATH:$ELIXIR_ROOT/bin

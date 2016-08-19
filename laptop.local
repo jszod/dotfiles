@@ -11,9 +11,11 @@ brew_tap 'cloudfoundry/tap'
 brew_install_or_upgrade 'boot2docker'
 brew_install_or_upgrade 'cf-cli'
 brew_install_or_upgrade 'elixir'
+brew_install_or_upgrade 'emacs --cocoa --srgb'
 brew_install_or_upgrade 'erlang'
 brew_install_or_upgrade 'go'
 brew_install_or_upgrade 'git-flow'
+brew_install_or_upgrade 'markdown'
 brew_install_or_upgrade 'hugo'
 brew_install_or_upgrade 'postgresql'
 brew_install_or_upgrade 'tree'
@@ -35,7 +37,6 @@ brew cask install balsamiq-mockups
 brew cask install coconutbattery
 brew cask install docker
 brew cask install easyfind
-brew cask install emacs
 brew cask install evernote
 brew cask install firefox
 brew cask install flash-player
