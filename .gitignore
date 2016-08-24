@@ -2,4 +2,22 @@
 vim/bundle/
 .DS_Store
 *.log
-emacs.d/auto-save-list/
+
+# emacs ignores
+# backup files
+*#
+*.
+*.elc
+*~
+.#~
+
+# emacs packages
+elpa/
+
+# emacs tmp files and misc
+SessionDesktop.el
+/auto-save-list
+themes/
+tutorial/
+
+
