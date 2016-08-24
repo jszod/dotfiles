@@ -9,15 +9,15 @@ vim/bundle/
 *.
 *.elc
 *~
-.#~
+.#*
 
 # emacs packages
-elpa/
+emacs.d/elpa/
 
 # emacs tmp files and misc
-SessionDesktop.el
-/auto-save-list
-themes/
-tutorial/
+emacs.d/SessionDesktop.el
+emacs.d/auto-save-list
+emacs.d/themes/
+emacs.d/tutorial/
 
 
