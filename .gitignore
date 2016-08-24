@@ -2,3 +2,4 @@
 vim/bundle/
 .DS_Store
 *.log
+emacs.d/auto-save-list/
