@@ -38,6 +38,7 @@ brew cask install atom
 brew cask install balsamiq-mockups
 brew cask install coconutbattery
 brew cask install docker
+brew cask install discord
 brew cask install easyfind
 brew cask install evernote
 brew cask install firefox
