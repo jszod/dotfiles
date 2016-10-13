@@ -7,6 +7,7 @@ brew_tap 'caskroom/cask'
 brew_tap 'homebrew/services'
 brew_tap 'cloudfoundry/tap'
 brew_tap 'caskroom/fonts'
+brew_tap 'wercker/wercker'
 
 # brew_install_or_upgrade 'brew-cask'
 # brew_install_or_upgrade 'boot2docker' # no longer used
@@ -21,6 +22,7 @@ brew_install_or_upgrade 'markdown'
 brew_install_or_upgrade 'hugo'
 brew_install_or_upgrade 'postgresql'
 brew_install_or_upgrade 'tree'
+brew_install_or_upgrade 'wercker-cli'
 brew_install_or_upgrade 'wget'
 
 brew_install_or_upgrade 'mongodb'
