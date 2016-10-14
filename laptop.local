@@ -11,6 +11,7 @@ brew_tap 'wercker/wercker'
 
 # brew_install_or_upgrade 'brew-cask'
 # brew_install_or_upgrade 'boot2docker' # no longer used
+brew_install_or_upgrade 'aspell --with-lang-en'
 brew_install_or_upgrade 'cf-cli'
 brew_install_or_upgrade 'elixir'
 brew_install_or_upgrade 'emacs --cocoa --srgb'
