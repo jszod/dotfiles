@@ -14,6 +14,11 @@ Finder /System/Library/CoreServices/Finder.app'
 
 alias emacs='open -a /Applications/Emacs.app $1'
 
+# Turn bracketed paste mode off so Emacs shell doesn't display strange chars
+if [[ $TERM = dumb ]]; then
+   unset zle_bracketed_paste
+fi
+
 # Elixir environment variables
 export ELIXIR_ROOT=/usr/local/opt/elixir
 export PATH=$PATH:$ELIXIR_ROOT/bin
