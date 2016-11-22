@@ -1,0 +1,49 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/joeszodfridt/code/elixir/_visualist/" . "test/")
+ ("/Users/joeszodfridt/code/elixir/" . "_visualist/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/" (22577 61287 0 0) "visualist/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22578 4291 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".gitignore" "#storymap_server.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22577 62851 0 0) "visualist.ex" "tracker/" "storymap/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22579 1470 0 0) "worker.ex~" "worker.ex" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/story_repo/" (22577 55170 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/little_elixir/chap_1/" (22575 25771 0 0) "length_converter.ex~" "length_converter.ex" "Elixir.MeterToLengthConverter.Inch.beam" "Elixir.MeterToLengthConverter.Feet.beam" "Elixir.MeterToLengthConverter.beam" "Elixir.MeterToFootConverter.Inch.beam" "Elixir.MeterToFootConverter.Feet.beam" "Elixir.MeterToFootConverter.beam" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/_visualist/test/" (22129 59206 0 0) "views/" "tracker_info.exs" "test_helper.exs" "support/" "models/" "integration/" "controllers/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/_visualist/" (22436 44822 0 0) "wercker.yml" "wercker" "web/" "ui.design/" "test/" "README.md" "priv/" "package.json" "node_modules/" "mix.lock" "mix.exs" "lib/" "docs/" "deps/" "config/" "brunch-config.js" "_steps/" "_build/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/" (22560 59706 0 0) "visualist.wiki/" "visualist/" "sequence/" "redfour/" "prog-elixir/" "plug_playground/" "phoenix_trello/" "hello_phoenix/" "elixir_in_action/" "_visualist/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/" (22544 46659 0 0) "wercker.yml" "README.md" "mix.lock" "mix.exs" "design/" "deps/" "config/" "blog/" "apps/" "_build/" ".wercker/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/storymap/" (22556 65373 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".gitignore" "#storymap_server.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/storymap/lib/" (22560 59860 0 0) "storymap.ex~" "storymap.ex" "storymap/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/storymap/lib/storymap/" (22560 60628 0 0) "server.ex~" "server.ex" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
