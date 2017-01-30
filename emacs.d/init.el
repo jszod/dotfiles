@@ -11,6 +11,7 @@
 
 (global-linum-mode t)  ;;enable line numbers in marge
 (global-hl-line-mode 1) ;;enable current line highlight
+(show-paren-mode 1) ;; enable highlighting of matching pairs of parenthesis
 
 ;; --- Package manger setup
 (require 'package)
