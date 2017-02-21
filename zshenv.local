@@ -44,3 +44,8 @@ export PATH=$PATH:$MONGODB_ROOT/bin
 export PATH=/usr/local/share/npm/bin:$PATH
 
 # /System/Library/CoreServices/Finder.app
+
+# Fix strange characters in Emacs terminal emulator
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERM=xterm-256color

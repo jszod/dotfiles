@@ -13,6 +13,7 @@
 (global-hl-line-mode 1) ;;enable current line highlight
 (show-paren-mode 1) ;; enable highlighting of matching pairs of parenthesis
 
+
 ;; --- Package manger setup
 (require 'package)
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
