@@ -1,47 +1,13 @@
-# Specify cask option
-#  --appdir specifies where symlinks to application will be created
-## export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-
-export RCRC=$HOME/dotfiles/rcrc rcup
-
-# Alias commands
-alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall \
-Finder /System/Library/CoreServices/Finder.app'
-
-alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall \
-Finder /System/Library/CoreServices/Finder.app'
-
-alias emacs='open -a /Applications/Emacs.app $1'
-
-# Turn bracketed paste mode off so Emacs shell doesn't display strange chars
-if [[ $TERM = dumb ]]; then
-   unset zle_bracketed_paste
-fi
-
-# Elixir environment variables
-export ELIXIR_ROOT=/usr/local/opt/elixir
-export PATH=$PATH:$ELIXIR_ROOT/bin
-
-# Golang environment variables
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/g.drive/code/go
-
-export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:$GOPATH/bin
-
-# Docker environment variables
-export DOCKER_HOST=tcp://192.168.99.100:2376
-export DOCKER_MACHINE_NAME=default
-export DOCKER_TLS_VERIFY=1
-export DOCKER_CERT_PATH=/users/joeszodfridt/.docker/machine/machines/dev
-
 # Monogdb environment variables
 export MONGODB_ROOT=/usr/local/opt/mongodb
 export PATH=$PATH:$MONGODB_ROOT/bin
 
 # NPM path
 export PATH=/usr/local/share/npm/bin:$PATH
+
+# pdflatex environment variables
+export PDFLATEX_PATH=/Library/TeX/texbin
+export PATH=$PATH:$PDFLATEX_PATH
 
 # /System/Library/CoreServices/Finder.app
 

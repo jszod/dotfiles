@@ -2,8 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" . "tracker/")
- ("/Users/joeszodfridt/code/elixir/visualist/apps/" . "visualist/")
+ ("/Users/joeszodfridt/" . "code/")
+ ("/Users/joeszodfridt/code/elixir/plug_playground/" . "lib/")
+ ("/" . "Applications/")
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/web/" . "test/")
+ ("/Users/joeszodfridt/code/elixir/plug_playground/lib/" . "plug_playground/")
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" . "mapping/")
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/" . "web/")
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/" . "mapping/")
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" . "lib/")
  ("/Users/joeszodfridt/dotfiles/" . "emacs.d/")
@@ -19,9 +24,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/"
+ "/Users/joeszodfridt/code/pivotal/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/"
+ "/Users/joeszodfridt/code/elixir/visualist/apps/web/"
+ "/Users/joeszodfridt/code/elixir/plug_playground/lib/plug_playground/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/"
+ "/Users/joeszodfridt/code/elixir/visualist/apps/web/test/"
+ "/Users/joeszodfridt/code/elixir/plug_playground/"
+ "/Users/joeszodfridt/code/elixir/plug_test/"
+ "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/"
  "/Users/joeszodfridt/dotfiles/emacs.d/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/storymap/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/storymap/"
@@ -29,51 +40,77 @@
 
 ;; ----- ido-work-file-list -----
 (
- "task_supervisor.ex"
+ "sy"
+ "maps_supervisor.ex"
+ "mix.exs"
  "supervisor.ex"
- "registry_test.exs"
- "server_test.exs"
- "supervisor_test.exs"
- "init.el"
- "server.ex"
+ "api_router.ex"
+ "map_server_test.exs"
+ "web_test.exs"
  "README.md"
+ "task_supervisor.ex"
+ "registry_test.exs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22621 42567 0 0) "worker.ex~" "worker.ex" "task_supervisor.ex" "../" "./")
+ ("/Users/joeszodfridt/code/pivotal/" (22819 20275 0 0) "vanguard/" "thebeach/" "synchrony.wiki/" "synchrony/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "libertymutual-cookbook/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/" (22621 42685 0 0) "users/" "supervisor.ex~" "supervisor.ex" "storymap.ex~" "storymap.ex" "server.ex~" "server.ex" "registry.ex~" "registry.ex" "../" "./")
+ ("/Users/joeszodfridt/code/pivotal/liberty-uscm-modernization.wiki/" (22819 27815 0 0) "images/" "Home.md" "flymd.md" "flymd.html" "dojo-inception.md~" "dojo-inception.md" ".git/" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22621 42529 0 0) "visualist.ex" "visualist/" "tracker/" "mapping/" "../" "./")
+ ("/Users/joeszodfridt/dotfiles/" (22740 2117 0 0) "zshrc" "zshenv.local" "zshenv" "zsh/" "vimrc.local" "vimrc.bundles.local" "vimrc.bundles" "vimrc" "tmux.conf" "rspec" "README.md" "rcrc" "psqlrc" "npm-debug.log" "logfile" "LICENSE" "laptop.local" "hushlogin" "hooks/" "gvimrc" "gitmessage" "gitignore" "gitconfig.local" "gitconfig" "git_template/" "gemrc" "emacs.d/" "bin/" "aliases" "agignore" ".psqlrc.local" ".gitignore" ".git/" ".DS_Store~" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22621 42653 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".wercker/" ".gitignore" "#storymap_server.ex#" "../" "./")
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/" (22720 56840 0 0) "users/" "supervisor.ex~" "supervisor.ex" "storymap.ex~" "storymap.ex" "story_mapping.ex~" "story_mapping.ex" "server.ex~" "server.ex" "maps_supervisor.ex~" "maps_supervisor.ex" "mapping.ex~" "mapping.ex" "map_supervisor.ex~" "map_supervisor.ex" "map_server.ex~" "map_server.ex" "map/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/web/" (22717 32888 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22717 63137 0 0) "visualist.ex" "visualist/" "tracker/" "mapping/" "../" "./")
+
+ ("/Users/joeszodfridt/" (22717 62582 0 0) "VirtualBox VMs/" "Users/" "test.md~" "test.md" "TDA/" "Sophie.md~" "Sophie.md" "scratch.md~" "scratch.md" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pgadmin.log" "pcfdev-v0.14.0/" "npm-debug.log" "note-esi.md~" "Music/" "Movies/" "lm-11:15:16-expense.pdf" "Library/" "laptop.log" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "esi-ops-dojo-notes.md" "esi-ops-dojo-notes.html~" "dump.rdb" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "chown" "cf.tgz" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "*message*-20161222-182939" "../" "./")
+
+ ("/Users/joeszodfridt/dotfiles/emacs.d/" (22701 42390 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "auto-save-list/" ".DS_Store" "#themes#" "#init.el#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22623 65180 0 0) "worker.ex~" "worker.ex" "task_supervisor.ex" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/web/test/" (22716 21516 0 0) "web_test.exs~" "web_test.exs" "test_helper.exs" "router_test.exs~" "router_test.exs" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_playground/lib/plug_playground/" (22713 50207 0 0) "router.ex~" "router.ex" "project_controller.ex~" "project_controller.ex" "project.ex~" "project.ex" "api_router.ex~" "api_router.ex" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_playground/lib/" (22713 50207 0 0) "plug_playground.ex~" "plug_playground.ex" "plug_playground/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/" (22682 42687 0 0) "users/" "supervisor_test.exs~" "supervisor_test.exs" "storymap_test.exs~" "storymap_test.exs" "story_mapping_test.exs~" "story_mapping_test.exs" "server_test.exs" "registry_test.exs" "maps_supervisor_test.exs~" "maps_supervisor_test.exs" "mapping_test.exs~" "mapping_test.exs" "map_supervisor_test.exs~" "map_supervisor_test.exs" "map_server_test.exs~" "map_server_test.exs" "#map_supervisor.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22661 22491 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".wercker/" ".gitignore" "#storymap_server.ex#" "../" "./")
+
+ ("/Applications/" (22713 62111 0 0) "zoom.us.app/" "XMind.app/" "Xcode.app/" "Web Meetings.app/" "Wake Up Time.app/" "VMware Horizon Client.app/" "VMware Fusion.app/" "VirtualBox.app/" "Vagrant Manager.app/" "Utilities/" "Tunnelblick.app/" "Trillian.app/" "TorBrowser.app/" "Time Machine.app/" "The Unarchiver.app/" "TextEdit.app/" "System Preferences.app/" "Sublime Text.app/" "Sublime Text 2.app" "Stickies.app/" "Spotify.app/" "SourceTree.app/" "Sophos Anti-Virus.app/" "SmartConverter.app/" "Slack.app/" "Skype.app/" "Skitch.app/" "SketchUpViewer.app/" "SketchBook.app/" "Siri.app/" "ShiftIt.app/" "Screenhero.app/" "Safari.app/" "Remove Sophos Anti-Virus.app/" "Remote Desktop Connection.app/" "Reminders.app/" "QuickTime Player.app/" "qttracereplay.app/" "QMLViewer.app/" "ProjectViewer365.app/" "Preview.app/" "Postgres-9.5.1.0.app" "Photos.app/" "Photo Booth.app/" "pgAdmin3.app/" "Paint 2.app/" "Pages.app/" "Opera.app/" "Opera Developer.app/" "OpenOffice.app/" "OnyX.app/" "OmniGraffle.app/" "Numbers.app/" "Notes.app/" "NetSpot.app/" "MySQLWorkbench.app/" "Mou.app/" "Mission Control.app/" "Microsoft Silverlight/" "Microsoft Office 2011/" "Microsoft Messenger.app/" "Microsoft Communicator.app/" "Messages.app/" "Maps.app/" "Malwarebytes Anti-Malware.app/" "Mail.app/" "MacDown.app/" "Logitech Camera Settings.app/" "Linguist.app/" "Launchpad.app/" "Kindle.app/" "Keynote.app/" "Jitsi.app/" "iTunes.app/" "iTerm.app/" "iPhoto.app/" "Insomnia.app/" "Image Capture.app/" "iBooks.app/" "GoToMeeting.app/" "GoToMeeting/" "Google Drive.app/" "Google Chrome.app/" "GitHub Desktop.app/" "FreeMind.app/" "Font Book.app/" "Flux.app/" "Flip4Mac/" "Flash Player.app/" "Firefox.app/" "FaceTime.app/" "Evernote.app/" "Emacs.app/" "EasyFind.app/" "DVD Player.app/" "Docker.app/" "Discord.app/" "Dictionary.app/" "Designer.app/" "Dashboard.app/" "Contacts.app/" "coconutBattery.app/" "Cisco/" "Chess.app/" "CGoban.app/" "Canon Utilities/" "Camfrog.app/" "Calendar.app/" "Calculator.app/" "Be Focused.app/" "Balsamiq Mockups 3.app/" "Automator.app/" "Atom.app/" "Assistant.app/" "AppCleaner.app/" "App Store.app/" "Adobe Acrobat Reader DC.app/" "Adium.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/" (22533 51212 0 0) "Shared/" "joeszodfridt/" "joesynch/" "administrator/" ".localized" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_playground/test/" (22709 5591 0 0) "test_helper.exs" "plug_playground_test.exs~" "plug_playground_test.exs" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/" (22715 33072 0 0) "web/" "visualist/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/" (22626 62542 0 0) "wercker.yml" "README.md" "mix.lock" "mix.exs" "design/" "deps/" "config/" "blog/" "apps/" "_build/" ".wercker/" ".gitignore" ".git/" ".DS_Store" "*scratch*" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/" (22706 58869 0 0) "visualist.wiki/" "visualist/" "super/" "sequence/" "redfour/" "prog-elixir/" "plug_playground/" "phoenix_trello/" "little_elixir/" "kv_umbrella/" "kv/" "hello_phoenix/" "hello/" "elixir_in_action/" "elixir-lang/" "casino/" "_visualist/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_playground/" (22709 5591 0 0) "test/" "README.md~" "README.md" "mix.lock" "mix.exs~" "mix.exs" "lib/" "deps/" "config/" "_build/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_test/" (22699 50193 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/plug_test/lib/" (22699 51405 0 0) "plug_test.ex" "plug_test/" ".#plug_test.ex" "#plug_test.ex#" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/" (22621 42825 0 0) "visualist/" "tracker/" "test_helper.exs~" "test_helper.exs" "mapping/" ".wercker/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/" (22621 42849 0 0) "users/" "supervisor_test.exs~" "supervisor_test.exs" "storymap_test.exs~" "storymap_test.exs" "storymap.exs" "server_test.exs" "registry_test.exs~" "registry_test.exs" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/users/" (22621 43374 0 0) "user_test.exs~" "user_test.exs" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/visualist/" (22608 49660 0 0) "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/" (22607 41203 0 0) "wercker.yml" "README.md" "mix.lock" "mix.exs" "design/" "deps/" "config/" "blog/" "apps/" "_build/" ".wercker/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/joeszodfridt/dotfiles/emacs.d/" (22617 23012 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "auto-save-list/" ".DS_Store" "#themes#" "../" "./")
-
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/tracker/" (22620 9063 0 0) "worker_test.exs~" "worker_test.exs" "../" "./")
-
- ("/Users/joeszodfridt/dotfiles/" (22609 25976 0 0) "zshrc" "zshenv.local" "zshenv" "zsh/" "vimrc.local" "vimrc.bundles.local" "vimrc.bundles" "vimrc" "tmux.conf" "rspec" "README.md" "rcrc" "psqlrc" "npm-debug.log" "logfile" "LICENSE" "laptop.local" "hushlogin" "hooks/" "gvimrc" "gitmessage" "gitignore" "gitconfig.local" "gitconfig" "git_template/" "gemrc" "emacs.d/" "bin/" "aliases" "agignore" ".psqlrc.local" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/joeszodfridt/" (22613 31578 0 0) "VirtualBox VMs/" "Users/" "test.md~" "test.md" "TDA/" "Sophie.md~" "Sophie.md" "scratch.md~" "scratch.md" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pgadmin.log" "pcfdev-v0.14.0/" "npm-debug.log" "note-esi.md~" "Music/" "Movies/" "lm-11:15:16-expense.pdf" "Library/" "laptop.log" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "esi-ops-dojo-notes.md" "esi-ops-dojo-notes.html~" "dump.rdb" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "chown" "cf.tgz" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/storymap/" (22607 42560 0 0) "server_test.exs" "list_test.exs" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/storymap/" (22607 36944 0 0) "supervisor.ex~" "supervisor.ex" "storymap.ex" "server.ex~" "server.ex" "application.ex~" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/" (22607 28135 0 0) "visualist/" ".DS_Store" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/" (22602 6360 0 0) "visualist.wiki/" "visualist/" "super/" "sequence/" "redfour/" "prog-elixir/" "plug_playground/" "phoenix_trello/" "little_elixir/" "kv/" "hello_phoenix/" "elixir_in_action/" "_visualist/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/storymap/" (22603 6005 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".gitignore" "#storymap_server.ex#" "../" "./")
 

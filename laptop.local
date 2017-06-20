@@ -21,10 +21,12 @@ brew_install_or_upgrade 'go'
 brew_install_or_upgrade 'git-flow'
 brew_install_or_upgrade 'markdown'
 brew_install_or_upgrade 'hugo'
+brew_install_or_upgarde 'pandoc'
 brew_install_or_upgrade 'postgresql'
 brew_install_or_upgrade 'tree'
 brew_install_or_upgrade 'wercker-cli'
 brew_install_or_upgrade 'wget'
+brew_install_or_upgarde 'yarn --ignore-dependencies'
 
 brew_install_or_upgrade 'mongodb'
 # Create data directory for Mongo
@@ -39,10 +41,13 @@ brew_install_or_upgrade 'tor'
 brew cask install appcleaner
 brew cask install atom
 brew cask install balsamiq-mockups
+brew cask install basictex
 brew cask install coconutbattery
 brew cask install docker
 brew cask install discord
 brew cask install easyfind
+brew cask install elm-platform
+
 brew cask install evernote
 brew cask install freemind
 brew cask install firefox
