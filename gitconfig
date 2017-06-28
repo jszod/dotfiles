@@ -15,6 +15,7 @@
 [core]
 	excludesfile = /Users/szodfj/.gitignore
   autocrlf = input
+	editor = emacs
 [merge]
   ff = only
 [commit]

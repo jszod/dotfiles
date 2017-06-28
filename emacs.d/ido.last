@@ -24,6 +24,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/"
  "/Users/joeszodfridt/code/pivotal/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/web/"
@@ -40,6 +41,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "api.js"
  "sy"
  "maps_supervisor.ex"
  "mix.exs"
@@ -49,11 +51,14 @@
  "web_test.exs"
  "README.md"
  "task_supervisor.ex"
- "registry_test.exs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/" (22857 24972 0 0) "yarn.lock" "src/" "package.json" "node_modules/" "elm-stuff/" "elm-package.json" "db.json~" "db.json" "api.js" "../" "./")
+
+ ("/Users/joeszodfridt/code/elm/elm-tutorial/main/" (22856 35445 0 0) "main.elm~" "main.elm" "main-3.elm~" "main-3.elm" "main-2.elm~" "main-2.elm" "elm-stuff/" "elm-package.json" "command.elm~" "command.elm" ".#main-2" "#main-2#" "../" "./")
+
  ("/Users/joeszodfridt/code/pivotal/" (22819 20275 0 0) "vanguard/" "thebeach/" "synchrony.wiki/" "synchrony/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "libertymutual-cookbook/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/pivotal/liberty-uscm-modernization.wiki/" (22819 27815 0 0) "images/" "Home.md" "flymd.md" "flymd.html" "dojo-inception.md~" "dojo-inception.md" ".git/" ".DS_Store" "../" "./")
