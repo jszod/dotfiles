@@ -1,8 +1,11 @@
 ;; --- Appearance customizations
 (setq inhibit-startup-message t) ;; Turn off the welcome message
-;; (menu-bar-mode -1) ;; Turn off menu-bar, tool-bar
+
+
+(menu-bar-mode -1) ;; Turn off menu-bar, tool-bar
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+
 (add-to-list 'initial-frame-alist '(fullscreen . fullheight)) ;; Startfull height
 (set-face-font 'default "Inconsolata-14")
 ;;(set-face-font 'default "Ubuntu Mono 14")
@@ -12,6 +15,7 @@
 (global-linum-mode t)  ;;enable line numbers in marge
 (global-hl-line-mode 1) ;;enable current line highlight
 (show-paren-mode 1) ;; enable highlighting of matching pairs of parenthesis
+
 
 
 ;; --- Package manger setup
