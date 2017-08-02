@@ -1,3 +1,4 @@
+(server-start)
 ;; --- Appearance customizations
 (setq inhibit-startup-message t) ;; Turn off the welcome message
 

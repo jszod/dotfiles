@@ -3,8 +3,13 @@ alias emacs='open -a /Applications/Emacs.app $1'
 # Alias for Emacs
 # alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 
+alias edit="emacsclient -n"
+
 # Set Emacs as default editor
-export EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs"
+#export EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs"
+#export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+#export EDITOR=emacsclient -n
+
 
 # Monogdb environment variables
 export MONGODB_ROOT=/usr/local/opt/mongodb

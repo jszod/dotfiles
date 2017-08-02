@@ -24,6 +24,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joeszodfridt/code/pivotal/fdc-ucom-modernization.wiki/"
  "/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/"
  "/Users/joeszodfridt/code/pivotal/"
  "/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/"
@@ -41,6 +42,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Midpoint-Review-6-18-17.md"
  "api.js"
  "sy"
  "maps_supervisor.ex"
@@ -50,42 +52,47 @@
  "map_server_test.exs"
  "web_test.exs"
  "README.md"
- "task_supervisor.ex"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/joeszodfridt/dotfiles/emacs.d/" (22914 15220 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "bookmarks" "auto-save-list/" ".DS_Store" "#themes#" "#init.el#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/web/test/" (22718 11369 0 0) "web_test.exs~" "web_test.exs" "test_helper.exs" "router_test.exs~" "router_test.exs" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/" (22720 53049 0 0) "users/" "supervisor_test.exs~" "supervisor_test.exs" "storymap_test.exs~" "storymap_test.exs" "story_mapping_test.exs~" "story_mapping_test.exs" "server_test.exs" "registry_test.exs" "maps_supervisor_test.exs~" "maps_supervisor_test.exs" "map_supervisor_test.exs~" "map_supervisor_test.exs" "map_server_test.exs~" "map_server_test.exs" "#map_supervisor.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/web/" (22718 14307 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/" (22720 64653 0 0) "users/" "supervisor.ex~" "supervisor.ex" "storymap.ex~" "storymap.ex" "story_mapping.ex~" "story_mapping.ex" "server.ex~" "server.ex" "maps_supervisor.ex~" "maps_supervisor.ex" "mapping.ex~" "mapping.ex" "map_supervisor.ex~" "map_supervisor.ex" "map_server.ex~" "map_server.ex" "map/" "../" "./")
+
+ ("/Users/joeszodfridt/code/pivotal/" (22869 9421 0 0) "vanguard/" "thebeach/" "the-way.wiki/" "synchrony.wiki/" "synchrony/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "fdc-ucom-modernization.wiki/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" "_fdc-ucom-modernization.wiki/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/" (22866 37938 0 0) "yarn.lock" "webpack.config.js~" "webpack.config.js" "src/" "ProcFile" "package.json~" "package.json" "npm-debug.log" "node_modules/" "elm-stuff/" "elm-package.json~" "elm-package.json" "dist/" "db.json~" "db.json" "api.js~" "api.js" "../" "./")
+
+ ("/Users/joeszodfridt/code/pivotal/fdc-ucom-modernization.wiki/" (22912 63379 0 0) "uCom-OKR-Reprioritization.md" "Pivotal uCom Modernization.md~" "OKR-Scorecard.md~" "Objective-&-Key-Results-(OKRs).md" "Midpoint-Review-6-18-17.md" "Inception-Summary.md" "images/" "Home.md" "flymd.md" "flymd.html" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/" (22774 31306 0 0) "visualist-spreadsheet/" "TrackerTracker/" "trackermapper.wiki/" "projects/" "pivotal/" "pez/" "mdf/" "laptop/" "hugo/" "go/" "exercism/" "erlang/" "elm/" "elixir/" "docker/" "app-replatforming/" "angular-seed/" "angular/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/" (22914 15154 0 0) "yarn.lock" "VirtualBox VMs/" "Users/" "TDA/" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pcfdev-v0.14.0/" "package.json" "notes/" "node_modules/" "Music/" "Movies/" "Library/" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "elm-stuff/" "elm-package.json" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".yarnrc" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".elm/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/pattern_matching/lib/" (22913 59117 0 0) "pattern_matching.ex~" "pattern_matching.ex" "../" "./")
+
  ("/Users/joeszodfridt/Downloads/" (22868 6904 0 0) "ZeusMasterCardScopingMerged.pdf" "yahtzee-free-license-cc0.jpg" "what-happens-when-you-drop-your-camera-with-long-exposure-free-license-cc0.jpg" "warminster auto body receipt.pdf" "Warminster Auto Body Estimate.pdf" "Warminster Auto Body Estimate (1).pdf" "wall.jpg" "verizon-histoy-04-12-2017.pdf" "Verizon-Bill-04-12-2017.pdf" "venetian reservation.pdf" "tumblr_ona3wyaBCp1sfie3io1_1280.jpg" "traveling.png" "tools2.jpg" "the-little-elixir-otp-guidebook-code-master/" "the road to app transformtion.png" "Target-USCM.png" "syf_inception_images/" "syf-ops-dojo-distilledl.pdf" "syf-dojo-Inception.pdf" "syf-car-to-phl.pdf" "syf airfaire.pdf" "stairway-to-nothing-free-license-cc0.jpg" "speedometer.jpg" "SnapAnalysisGuidance.pdf" "SnapAnalysisGuidance (1).pdf" "schwab.pdf" "Scan0035.pdf" "Save-and-file/" "sad-car-free-license-cc0.jpg" "road to replatforming.png" "risk-vertical-slice.png" "reWorkOKRsObjectivesandKeyResultsScorecard.pdf" "RCRAInfo 2 Cloud.pdf" "q5mmrdt2.jpg" "PrintHistoricalOutgoingTransfer.pdf" "Principal Review Presentation Ford Donald v4.3.pptx" "Pivotal Optum to Cigna HSA Transfer Form.pdf" "Pinterest • The world’s catalog of ideas.html" "Payeezy__snap.jpg" "Payeezy  snap.png" "Payeezy  snap.jpg" "Overall Mission - Reduce time required to onboard new customers.md" "on-the-road.png" "Objectives and Key Results.md" "Objective 6 with Key Results.JPG" "Objective 5.JPG" "Objective 4 with Key Results.JPG" "Objective 3 with Key Results.JPG" "Objective 2.JPG" "Objective 1.JPG" "not one size fits all.png" "NJ Gas Demo invoice paid.pdf" "new_years_resolutions_2.jpg" "mixer_6.jpg" "message.html" "message (1).html" "Manulife PCF Ops Dojo Summary.pdf" "Manulife OpsDojo Backlog Items.pptx" "Manulife Ops Dojo Distilled.pdf" "manulife airfare.pdf" "mannequin-free-license-cc0.jpg" "maddi mulch police report.pdf" "maddi mulch police report (1).pdf" "Maddi Mulch Accident/" "Maddi Miss USA 2016/" "lynx_cannon_freehold_combined.pdf" "Lynx Demo Alburtus 1402 C Street invoice.pdf" "luggage.png" "lmdownload.pdf" "lmdownload.html" "lmdownload (1).html" "lm_uscm_mid_dojo/" "lm_jessica_no_response_email.pdf" "lm-uscm-midpoint-review.pdf" "lm-mvp-extract-services.jpg" "lm-group-1.jpg" "lm-em-0-entire-picture.jpg" "LM USCM Modernization - Inception Agenda Details.pdf" "LM USCM App Mod Dojo Inception Distilled.pdf" "LM UCSM Modernization Inception Agenda Summary.pdf" "lm midpoint air.pdf" "LM mid-dojo update images.zip" "LM mid-dojo update images/" "LM Goals OKRs.pdf" "LM ES cropped.jpg" "leaf.jpg" "joe profile pic.jpg" "joe profile pic mod.graffle/" "joe li profile pic mod.jpg" "joe li profile pic mod 2.jpg" "joe li profile 200x200.jpg" "joe and helen.jpg" "Java Selection Criteria.pdf" "Jason Andersen - 2017.06.13.pdf" "Invoice_174678.pdf" "Invoice_170332.pdf" "Invoice_170161.pdf" "Inception Storyboard .pdf" "Inception Storyboard  (1).pdf" "Hotel Bill 20170407 folio.pdf" "Hotel Bill 20170222 folio.pdf" "Great American Insurance Dojo Inception Summary.pptx" "freehold-soil-auhtorization-signed.pdf" "foundation receipts.pdf" "foam bugs.png" "fdc petrol payment.JPG" "FDC midpoint air.pdf" "fdc close airfare.pdf" "FDC App Transformation OKRs.pdf" "fdc/" "fair-attraction-long-exposure-free-license.jpg" "EventStorming Recipes _ SkillsCast _ 20th June 2014_files/" "Event Storm for D&F.jpg" "elm-tutorial-app-master.zip" "elm-tutorial-app-master/" "economist_app.jpg" "dustin ipad order.pdf" "DHOnlineStatementsDisplayServlet.pdf" "DHA_App_Scoping.zip" "DHA_App_Scoping/" "DEW17_template_Breakout_Sessions.potx" "dew airfare cancellation.pdf" "Demo permit.pdf" "CVS/" "crap.md" "CNA_AppModernization_Scoping_20170411.pdf" "cloud native continuum.png" "car-on-the-street-free-license-cc0-1.jpg" "cannon_900.pdf" "c-street-mort-june.pdf" "C-Street to file/" "C-street payment schedules - Jimmy.pdf" "C-street payment schedules - first comerce.pdf" "bush.jpg" "burning-rubber-free-license-cc0.jpg" "Bulk_prioritization___1_.jpg" "Bulk prioritization .jpg" "Bulk prioritization  (1).jpg" "BS Summary 6:15:17.pdf" "BS Funding 6:16:17.pdf" "BS accounts 6:15:17.pdf" "black-swan-farming.epub" "Benefits_Submit_Elections_Confirmation.pdf" "Assignment of funds Champion.pdf" "Assignment of Architect.pdf" "Assignment of Architect signed.pdf" "April checking 2.pdf" "April checking .pdf" "app-replatforming.xmind" "Alburtus house deposit.pdf" "Agreement-McCusker.pdf" "Agreement Szodfridt McCusker.pdf" "aa flight change receipt.png" "_cake of replatforming.png" "2cv-red-dots-free-license-cc0-1-of-1.jpg" "20170307_165755.jpg" "20170307_165612.jpg" "1404C0001.pdf" "1402 C0001.pdf" "1402 C Street, Belmar, NJ.xlsx" "1402 C Street%2c Belmar%2c NJ.xlsx" ".localized" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/" (22857 24972 0 0) "yarn.lock" "src/" "package.json" "node_modules/" "elm-stuff/" "elm-package.json" "db.json~" "db.json" "api.js" "../" "./")
-
  ("/Users/joeszodfridt/code/elm/elm-tutorial/main/" (22856 35445 0 0) "main.elm~" "main.elm" "main-3.elm~" "main-3.elm" "main-2.elm~" "main-2.elm" "elm-stuff/" "elm-package.json" "command.elm~" "command.elm" ".#main-2" "#main-2#" "../" "./")
-
- ("/Users/joeszodfridt/code/pivotal/" (22819 20275 0 0) "vanguard/" "thebeach/" "synchrony.wiki/" "synchrony/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "libertymutual-cookbook/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/pivotal/liberty-uscm-modernization.wiki/" (22819 27815 0 0) "images/" "Home.md" "flymd.md" "flymd.html" "dojo-inception.md~" "dojo-inception.md" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/dotfiles/" (22740 2117 0 0) "zshrc" "zshenv.local" "zshenv" "zsh/" "vimrc.local" "vimrc.bundles.local" "vimrc.bundles" "vimrc" "tmux.conf" "rspec" "README.md" "rcrc" "psqlrc" "npm-debug.log" "logfile" "LICENSE" "laptop.local" "hushlogin" "hooks/" "gvimrc" "gitmessage" "gitignore" "gitconfig.local" "gitconfig" "git_template/" "gemrc" "emacs.d/" "bin/" "aliases" "agignore" ".psqlrc.local" ".gitignore" ".git/" ".DS_Store~" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/" (22720 56840 0 0) "users/" "supervisor.ex~" "supervisor.ex" "storymap.ex~" "storymap.ex" "story_mapping.ex~" "story_mapping.ex" "server.ex~" "server.ex" "maps_supervisor.ex~" "maps_supervisor.ex" "mapping.ex~" "mapping.ex" "map_supervisor.ex~" "map_supervisor.ex" "map_server.ex~" "map_server.ex" "map/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/web/" (22717 32888 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" ".gitignore" "../" "./")
-
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22717 63137 0 0) "visualist.ex" "visualist/" "tracker/" "mapping/" "../" "./")
 
- ("/Users/joeszodfridt/" (22717 62582 0 0) "VirtualBox VMs/" "Users/" "test.md~" "test.md" "TDA/" "Sophie.md~" "Sophie.md" "scratch.md~" "scratch.md" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pgadmin.log" "pcfdev-v0.14.0/" "npm-debug.log" "note-esi.md~" "Music/" "Movies/" "lm-11:15:16-expense.pdf" "Library/" "laptop.log" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "esi-ops-dojo-notes.md" "esi-ops-dojo-notes.html~" "dump.rdb" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "chown" "cf.tgz" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "*message*-20161222-182939" "../" "./")
-
- ("/Users/joeszodfridt/dotfiles/emacs.d/" (22701 42390 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "auto-save-list/" ".DS_Store" "#themes#" "#init.el#" "../" "./")
-
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22623 65180 0 0) "worker.ex~" "worker.ex" "task_supervisor.ex" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/web/test/" (22716 21516 0 0) "web_test.exs~" "web_test.exs" "test_helper.exs" "router_test.exs~" "router_test.exs" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/plug_playground/lib/plug_playground/" (22713 50207 0 0) "router.ex~" "router.ex" "project_controller.ex~" "project_controller.ex" "project.ex~" "project.ex" "api_router.ex~" "api_router.ex" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/plug_playground/lib/" (22713 50207 0 0) "plug_playground.ex~" "plug_playground.ex" "plug_playground/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/test/mapping/" (22682 42687 0 0) "users/" "supervisor_test.exs~" "supervisor_test.exs" "storymap_test.exs~" "storymap_test.exs" "story_mapping_test.exs~" "story_mapping_test.exs" "server_test.exs" "registry_test.exs" "maps_supervisor_test.exs~" "maps_supervisor_test.exs" "mapping_test.exs~" "mapping_test.exs" "map_supervisor_test.exs~" "map_supervisor_test.exs" "map_server_test.exs~" "map_server_test.exs" "#map_supervisor.ex#" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22661 22491 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".wercker/" ".gitignore" "#storymap_server.ex#" "../" "./")
 
@@ -130,8 +137,6 @@
  ("/Users/joeszodfridt/code/elixir/little_elixir/chap_7/" (22591 9905 0 0) "pooly/" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/little_elixir/" (22591 9905 0 0) "chap_7/" "chap_4/" "chap_3/" "chap_2/" "../" "./")
-
- ("/Users/joeszodfridt/code/" (22580 34543 0 0) "visualist-spreadsheet/" "TrackerTracker/" "trackermapper.wiki/" "projects/" "pivotal/" "pez/" "mdf/" "laptop/" "hugo/" "go/" "exercism/" "erlang/" "elixir/" "docker/" "app-replatforming/" "angular-seed/" "angular/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/erlang/erlang_in_action/chapter_04/tcp_rc/src/" (22581 57898 0 0) "tr_sup.erl" "tr_app.erl" "../" "./")
 
