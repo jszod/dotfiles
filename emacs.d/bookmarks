@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("summary"
+ (filename . "~/code/pivotal/fdc-ucom-modernization.wiki/OKR-Scorecard.md")
+ (front-context-string . "\nOKR-1 Current u")
+ (rear-context-string . " OKR Scorecard\n\n")
+ (position . 19))
+)
