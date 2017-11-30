@@ -3,7 +3,7 @@
 (setq inhibit-startup-message t) ;; Turn off the welcome message
 
 
-(menu-bar-mode -1) ;; Turn off menu-bar, tool-bar
+(menu-bar-mode 1) ;; -1 Turn off menu-bar, tool-bar
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
@@ -89,6 +89,7 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default bold shadow italic underline bold bold-italic bold])
+ '(column-number-mode t)
  '(compilation-message-face (quote default))
  '(custom-safe-themes
    (quote
@@ -116,10 +117,12 @@
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(pos-tip-background-color "#A6E22E")
  '(pos-tip-foreground-color "#272822")
+ '(show-paren-mode t)
  '(sml/active-background-color "#34495e")
  '(sml/active-foreground-color "#ecf0f1")
  '(sml/inactive-background-color "#dfe4ea")
  '(sml/inactive-foreground-color "#34495e")
+ '(tool-bar-mode nil)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

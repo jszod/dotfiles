@@ -1,8 +1,4 @@
 alias emacs='open -a /Applications/Emacs.app $1'
-
-# Alias for Emacs
-# alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-
 alias edit="emacsclient -n"
 
 # Set Emacs as default editor

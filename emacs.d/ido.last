@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/joeszodfridt/code/elixir/viz/storymap/" . "lib/")
+ ("/Users/joeszodfridt/code/elixir/viz/" . "storymap/")
  ("/Users/joeszodfridt/" . "code/")
  ("/Users/joeszodfridt/code/elixir/plug_playground/" . "lib/")
  ("/" . "Applications/")
@@ -19,11 +21,12 @@
  ("/Users/joeszodfridt/code/elixir/little_elixir/" . "chap_7/")
  ("/Users/joeszodfridt/code/" . "elixir/")
  ("/Users/joeszodfridt/code/elixir/_visualist/" . "test/")
- ("/Users/joeszodfridt/code/elixir/" . "visualist/")
+ ("/Users/joeszodfridt/code/elixir/" . "viz/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joeszodfridt/code/elixir/viz/storymap/lib/"
  "/Users/joeszodfridt/code/pivotal/fdc-ucom-modernization.wiki/"
  "/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/"
  "/Users/joeszodfridt/code/pivotal/"
@@ -42,6 +45,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "storymap.ex"
  "Midpoint-Review-6-18-17.md"
  "api.js"
  "sy"
@@ -51,12 +55,41 @@
  "api_router.ex"
  "map_server_test.exs"
  "web_test.exs"
- "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/joeszodfridt/dotfiles/emacs.d/" (22914 15220 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "bookmarks" "auto-save-list/" ".DS_Store" "#themes#" "#init.el#" "../" "./")
+ ("/Users/joeszodfridt/code/elixir/viz/storymap/lib/" (22987 25034 0 0) "storymap.ex~" "storymap.ex" "storymap/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/viz/storymap/" (22987 29509 0 0) "test/" "README.md" "mix.lock" "mix.exs~" "mix.exs" "lib/" "deps/" "config/" "_build/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/viz/" (22987 20234 0 0) "tracker/" "storymap/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/" (22729 29691 0 0) "wercker.yml" "README.md" "mix.lock" "mix.exs" "design/" "deps/" "config/" "blog/" "apps/" "_build/" ".wercker/" ".gitignore" ".git/" ".DS_Store" "*scratch*" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22720 52124 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".wercker/" ".gitignore" "#storymap_server.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22720 65443 0 0) "visualist.ex" "visualist/" "tracker/" "mapping/" "../" "./")
+
+ ("/Users/joeszodfridt/dotfiles/emacs.d/" (22987 28831 0 0) "url/" "tutorial/" "themes/" "SessionDesktop.el" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "edts/" "bookmarks" "auto-save-list/" ".DS_Store" "#themes#" "#init.el#" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22985 56301 0 0) "worker.ex~" "worker.ex" "task_supervisor.ex" ".#worker.ex" "#worker.ex#" "../" "./")
+
+ ("/Users/joeszodfridt/" (22985 41225 0 0) "yarn.lock" "VirtualBox VMs/" "Users/" "test.txt" "TDA/" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pcfdev-v0.14.0/" "package.json" "notes/" "node_modules/" "Music/" "Movies/" "Library/" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "elm-stuff/" "elm-package.json" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".yarnrc" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".elm/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bashrc~" ".bashrc" ".bash_sessions/" ".bash_profile~" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/" (22923 36941 0 0) "modules/" "game/" "e4p-code/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/" (22925 3876 0 0) "text_client/" "hangman/" "dictionary/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/" (22925 4554 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" "_build/" ".gitignore" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/" (22985 36418 0 0) "text_client.ex~" "text_client.ex" "text_client/" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/text_client/" (22985 36483 0 0) "state.ex" "player.ex~" "player.ex" "interact.ex~" "interact.ex" "../" "./")
+
+ ("/Users/joeszodfridt/code/pivotal/" (22978 41601 0 0) "vanguard/" "thebeach/" "the-way.wiki/" "synchrony.wiki/" "synchrony/" "statefarm-cookbook.wiki/" "statefarm-cookbook/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "fdc-ucom-modernization.wiki/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" "_fdc-ucom-modernization.wiki/" ".DS_Store" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/" (22985 38655 0 0) "viz/" "visualist.wiki/" "visualist/" "super/" "sequence/" "redfour/" "prog-elixir/" "plug_playground/" "phoenix_trello/" "little_elixir/" "kv_umbrella/" "kv/" "hello_phoenix/" "hello/" "elixir_in_action/" "elixir-lang/" "elixir-for-programmers/" "casino/" "_visualist/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/web/test/" (22718 11369 0 0) "web_test.exs~" "web_test.exs" "test_helper.exs" "router_test.exs~" "router_test.exs" "../" "./")
 
@@ -66,15 +99,11 @@
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/mapping/" (22720 64653 0 0) "users/" "supervisor.ex~" "supervisor.ex" "storymap.ex~" "storymap.ex" "story_mapping.ex~" "story_mapping.ex" "server.ex~" "server.ex" "maps_supervisor.ex~" "maps_supervisor.ex" "mapping.ex~" "mapping.ex" "map_supervisor.ex~" "map_supervisor.ex" "map_server.ex~" "map_server.ex" "map/" "../" "./")
 
- ("/Users/joeszodfridt/code/pivotal/" (22869 9421 0 0) "vanguard/" "thebeach/" "the-way.wiki/" "synchrony.wiki/" "synchrony/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "fdc-ucom-modernization.wiki/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" "_fdc-ucom-modernization.wiki/" ".DS_Store" "../" "./")
-
  ("/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/" (22866 37938 0 0) "yarn.lock" "webpack.config.js~" "webpack.config.js" "src/" "ProcFile" "package.json~" "package.json" "npm-debug.log" "node_modules/" "elm-stuff/" "elm-package.json~" "elm-package.json" "dist/" "db.json~" "db.json" "api.js~" "api.js" "../" "./")
 
  ("/Users/joeszodfridt/code/pivotal/fdc-ucom-modernization.wiki/" (22912 63379 0 0) "uCom-OKR-Reprioritization.md" "Pivotal uCom Modernization.md~" "OKR-Scorecard.md~" "Objective-&-Key-Results-(OKRs).md" "Midpoint-Review-6-18-17.md" "Inception-Summary.md" "images/" "Home.md" "flymd.md" "flymd.html" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/" (22774 31306 0 0) "visualist-spreadsheet/" "TrackerTracker/" "trackermapper.wiki/" "projects/" "pivotal/" "pez/" "mdf/" "laptop/" "hugo/" "go/" "exercism/" "erlang/" "elm/" "elixir/" "docker/" "app-replatforming/" "angular-seed/" "angular/" ".DS_Store" "../" "./")
-
- ("/Users/joeszodfridt/" (22914 15154 0 0) "yarn.lock" "VirtualBox VMs/" "Users/" "TDA/" "Public/" "Pivotal Training Cloud Foundry Immersion.xmind" "Pictures/" "pcfdev-v0.14.0/" "package.json" "notes/" "node_modules/" "Music/" "Movies/" "Library/" "Joe.sparseimage" "inovalon/" "google.drive.home/" "g.drive/" "exercism/" "elm-stuff/" "elm-package.json" "Downloads/" "dotfiles/" "Documents/" "Desktop/" "code/" "cf" "bin/" "Applications/" ".zshrc" ".zshenv.local" ".zshenv" ".zsh/" ".zhistory" ".zcompdump" ".yarnrc" ".wget-hsts" ".wercker/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".subversion/" ".ssh/" ".spacemacs" ".rspec" ".rcrc" ".rbenv/" ".psqlrc.local" ".psqlrc" ".pgpass" ".ovftool.ssldb" ".oracle_jre_usage/" ".npm-debug.log" ".npm/" ".node-gyp/" ".mysql_history" ".mix/" ".logfile" ".local/" ".lesshst" ".laptop.local" ".hushlogin" ".hex/" ".gvimrc" ".gradle/" ".gitmessage" ".gitignore" ".gitconfig.local" ".gitconfig" ".git_template/" ".gemrc" ".gem/" ".freemind/" ".exercism.json" ".emacs.d/" ".elm/" ".DS_Store" ".docker/" ".cups/" ".config/" ".cisco/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".boot2docker/" ".bin/" ".bash_profile" ".bash_history" ".atom/" ".anyconnect" ".aliases" ".agignore" "._emacs.d/" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/pattern_matching/lib/" (22913 59117 0 0) "pattern_matching.ex~" "pattern_matching.ex" "../" "./")
 
@@ -86,15 +115,9 @@
 
  ("/Users/joeszodfridt/dotfiles/" (22740 2117 0 0) "zshrc" "zshenv.local" "zshenv" "zsh/" "vimrc.local" "vimrc.bundles.local" "vimrc.bundles" "vimrc" "tmux.conf" "rspec" "README.md" "rcrc" "psqlrc" "npm-debug.log" "logfile" "LICENSE" "laptop.local" "hushlogin" "hooks/" "gvimrc" "gitmessage" "gitignore" "gitconfig.local" "gitconfig" "git_template/" "gemrc" "emacs.d/" "bin/" "aliases" "agignore" ".psqlrc.local" ".gitignore" ".git/" ".DS_Store~" ".DS_Store" "../" "./")
 
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/" (22717 63137 0 0) "visualist.ex" "visualist/" "tracker/" "mapping/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/lib/tracker/" (22623 65180 0 0) "worker.ex~" "worker.ex" "task_supervisor.ex" "../" "./")
-
  ("/Users/joeszodfridt/code/elixir/plug_playground/lib/plug_playground/" (22713 50207 0 0) "router.ex~" "router.ex" "project_controller.ex~" "project_controller.ex" "project.ex~" "project.ex" "api_router.ex~" "api_router.ex" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/plug_playground/lib/" (22713 50207 0 0) "plug_playground.ex~" "plug_playground.ex" "plug_playground/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/apps/visualist/" (22661 22491 0 0) "test/" "README.md" "mix.exs" "lib/" "config/" "_build/" ".wercker/" ".gitignore" "#storymap_server.ex#" "../" "./")
 
  ("/Applications/" (22713 62111 0 0) "zoom.us.app/" "XMind.app/" "Xcode.app/" "Web Meetings.app/" "Wake Up Time.app/" "VMware Horizon Client.app/" "VMware Fusion.app/" "VirtualBox.app/" "Vagrant Manager.app/" "Utilities/" "Tunnelblick.app/" "Trillian.app/" "TorBrowser.app/" "Time Machine.app/" "The Unarchiver.app/" "TextEdit.app/" "System Preferences.app/" "Sublime Text.app/" "Sublime Text 2.app" "Stickies.app/" "Spotify.app/" "SourceTree.app/" "Sophos Anti-Virus.app/" "SmartConverter.app/" "Slack.app/" "Skype.app/" "Skitch.app/" "SketchUpViewer.app/" "SketchBook.app/" "Siri.app/" "ShiftIt.app/" "Screenhero.app/" "Safari.app/" "Remove Sophos Anti-Virus.app/" "Remote Desktop Connection.app/" "Reminders.app/" "QuickTime Player.app/" "qttracereplay.app/" "QMLViewer.app/" "ProjectViewer365.app/" "Preview.app/" "Postgres-9.5.1.0.app" "Photos.app/" "Photo Booth.app/" "pgAdmin3.app/" "Paint 2.app/" "Pages.app/" "Opera.app/" "Opera Developer.app/" "OpenOffice.app/" "OnyX.app/" "OmniGraffle.app/" "Numbers.app/" "Notes.app/" "NetSpot.app/" "MySQLWorkbench.app/" "Mou.app/" "Mission Control.app/" "Microsoft Silverlight/" "Microsoft Office 2011/" "Microsoft Messenger.app/" "Microsoft Communicator.app/" "Messages.app/" "Maps.app/" "Malwarebytes Anti-Malware.app/" "Mail.app/" "MacDown.app/" "Logitech Camera Settings.app/" "Linguist.app/" "Launchpad.app/" "Kindle.app/" "Keynote.app/" "Jitsi.app/" "iTunes.app/" "iTerm.app/" "iPhoto.app/" "Insomnia.app/" "Image Capture.app/" "iBooks.app/" "GoToMeeting.app/" "GoToMeeting/" "Google Drive.app/" "Google Chrome.app/" "GitHub Desktop.app/" "FreeMind.app/" "Font Book.app/" "Flux.app/" "Flip4Mac/" "Flash Player.app/" "Firefox.app/" "FaceTime.app/" "Evernote.app/" "Emacs.app/" "EasyFind.app/" "DVD Player.app/" "Docker.app/" "Discord.app/" "Dictionary.app/" "Designer.app/" "Dashboard.app/" "Contacts.app/" "coconutBattery.app/" "Cisco/" "Chess.app/" "CGoban.app/" "Canon Utilities/" "Camfrog.app/" "Calendar.app/" "Calculator.app/" "Be Focused.app/" "Balsamiq Mockups 3.app/" "Automator.app/" "Atom.app/" "Assistant.app/" "AppCleaner.app/" "App Store.app/" "Adobe Acrobat Reader DC.app/" "Adium.app/" ".localized" ".DS_Store" "../" "./")
 
@@ -103,10 +126,6 @@
  ("/Users/joeszodfridt/code/elixir/plug_playground/test/" (22709 5591 0 0) "test_helper.exs" "plug_playground_test.exs~" "plug_playground_test.exs" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/visualist/apps/" (22715 33072 0 0) "web/" "visualist/" ".DS_Store" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/visualist/" (22626 62542 0 0) "wercker.yml" "README.md" "mix.lock" "mix.exs" "design/" "deps/" "config/" "blog/" "apps/" "_build/" ".wercker/" ".gitignore" ".git/" ".DS_Store" "*scratch*" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/" (22706 58869 0 0) "visualist.wiki/" "visualist/" "super/" "sequence/" "redfour/" "prog-elixir/" "plug_playground/" "phoenix_trello/" "little_elixir/" "kv_umbrella/" "kv/" "hello_phoenix/" "hello/" "elixir_in_action/" "elixir-lang/" "casino/" "_visualist/" ".DS_Store" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/plug_playground/" (22709 5591 0 0) "test/" "README.md~" "README.md" "mix.lock" "mix.exs~" "mix.exs" "lib/" "deps/" "config/" "_build/" ".gitignore" ".git/" "../" "./")
 
