@@ -57,6 +57,7 @@ brew cask install font-inconsolata
 brew cask install github-desktop
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install inkscape
 brew cask install iterm2
 brew cask install insomnia
 brew cask install java
@@ -83,6 +84,7 @@ brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install wercker
 brew cask install xmind
+brew cask install xquartz
 
 # Add the Mac OSX Wercker CLI to /usr/local/bin (YMMV)
 curl https://s3.amazonaws.com/downloads.wercker.com/cli/stable/darwin_amd64/wercker -o /usr/local/bin/wercker
