@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/dictionary/lib/" . "dictionary/")
  ("/Users/joeszodfridt/code/elixir/viz/storymap/" . "lib/")
  ("/Users/joeszodfridt/code/elixir/viz/" . "storymap/")
  ("/Users/joeszodfridt/" . "code/")
@@ -26,6 +27,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/dictionary/lib/dictionary/"
+ "/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/hangman/"
+ "/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/text_client/"
  "/Users/joeszodfridt/code/elixir/viz/storymap/lib/"
  "/Users/joeszodfridt/code/pivotal/fdc-ucom-modernization.wiki/"
  "/Users/joeszodfridt/code/elm/elm-tutorial/elm-tutorial-app/"
@@ -45,6 +49,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "word_list.ex"
+ "README.md"
+ "prompter.ex"
  "storymap.ex"
  "Midpoint-Review-6-18-17.md"
  "api.js"
@@ -52,13 +59,20 @@
  "maps_supervisor.ex"
  "mix.exs"
  "supervisor.ex"
- "api_router.ex"
- "map_server_test.exs"
- "web_test.exs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/dictionary/lib/dictionary/" (23113 2659 477092 694000) "word_list.ex~" "word_list.ex" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/dictionary/lib/" (23113 4170 8416 725000) "dictionary/" "dictionary.ex" "dictionary.ex~" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/hangman/" (22914 12030 0 0) "mix.exs~" "lib/" "_build/" ".gitignore" "README.md" "config/" "test/" "mix.exs" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/hangman/lib/" (22922 39438 0 0) "hangman/" "hangman.ex" "hangman.ex~" "../" "./")
+
+ ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/text_client/" (23112 2668 560304 924000) "prompter.ex~" "summary.ex" "player.ex" "state.ex" "interact.ex" "summary.ex~" "prompter.ex" "player.ex~" "interact.ex~" ".#player.ex" "#player.ex#" "../" "./")
+
  ("/Users/joeszodfridt/code/elixir/viz/storymap/lib/" (22987 25034 0 0) "storymap.ex~" "storymap.ex" "storymap/" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/viz/storymap/" (22987 29509 0 0) "test/" "README.md" "mix.lock" "mix.exs~" "mix.exs" "lib/" "deps/" "config/" "_build/" ".gitignore" "../" "./")
@@ -84,8 +98,6 @@
  ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/" (22925 4554 0 0) "test/" "README.md" "mix.exs~" "mix.exs" "lib/" "config/" "_build/" ".gitignore" "../" "./")
 
  ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/" (22985 36418 0 0) "text_client.ex~" "text_client.ex" "text_client/" "../" "./")
-
- ("/Users/joeszodfridt/code/elixir/elixir-for-programmers/game/text_client/lib/text_client/" (22985 36483 0 0) "state.ex" "player.ex~" "player.ex" "interact.ex~" "interact.ex" "../" "./")
 
  ("/Users/joeszodfridt/code/pivotal/" (22978 41601 0 0) "vanguard/" "thebeach/" "the-way.wiki/" "synchrony.wiki/" "synchrony/" "statefarm-cookbook.wiki/" "statefarm-cookbook/" "project-summaries/" "playbook/" "merrill/" "manulife.wiki/" "liberty-uscm-modernization.wiki/" "liberty-uscm-modernization/" "kroger/" "insys/" "inovalon/" "inception-agendas-and-cheatsheets/" "hugo/" "fiserv/" "fdc-ucom-modernization.wiki/" "express-scripts/" "ESI/" "deutsche-bank/" "dell-platform-dojo/" "dell/" "dashboards/" "citi-tenant-ops-day-2-dojo/" "c0/" "broadridge/" "blackbaud/" "backlog-templates/" "app-replatforming/" "accenture.wiki/" "_fdc-ucom-modernization.wiki/" ".DS_Store" "../" "./")
 

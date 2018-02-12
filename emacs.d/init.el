@@ -17,7 +17,13 @@
 (global-hl-line-mode 1) ;;enable current line highlight
 (show-paren-mode 1) ;; enable highlighting of matching pairs of parenthesis
 
-
+;; --- Meaningful name for buffers with the same name
+(require 'uniquify)
+;;(setq uniquify-buffer-name-style 'forward)
+(setq uniquify-buffer-name-style 'reverse)
+(setq uniquify-separator "/")
+(setq uniquify-after-kill-buffer-p t) ; rename after killing uniquified
+(setq uniquify-ignore-buffers-re "^\\*") ; don't muck with special buffers
 
 ;; --- Package manger setup
 (require 'package)
