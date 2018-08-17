@@ -49,7 +49,7 @@ brew cask install easyfind
 brew cask install elm-platform
 
 brew cask install evernote
-brew cask install freemind
+# brew cask install freemind - no longer used
 brew cask install firefox
 brew cask install flash-player
 brew cask install flip4mac
@@ -68,7 +68,7 @@ brew cask install omnigraffle
 brew cask install onyx
 brew cask install opera
 brew cask install pgadmin3
-brew cask install screenhero
+# brew cask install screenhero - no longer used
 brew cask install shiftit
 brew cask install sketchupviewer
 brew cask install skype
@@ -76,7 +76,7 @@ brew cask install slack
 # brew cask install sophos-anti-virus-home-edition had an issue, sack no longer available
 brew cask install sourcetree
 brew cask install spotify
-brew cask install sublime-text
+brew cask install sublime-text - no longer used
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install vagrant-manager
