@@ -83,6 +83,7 @@ brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install vivaldi
+brew cask install vlc
 brew cask install wercker
 brew cask install xmind
 brew cask install xquartz
