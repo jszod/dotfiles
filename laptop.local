@@ -61,6 +61,7 @@ brew cask install inkscape
 brew cask install iterm2
 brew cask install insomnia
 brew cask install java
+brew cask install krisp
 brew cask install malwarebytes-anti-malware
 brew cask install mou
 brew cask install mysqlworkbench
