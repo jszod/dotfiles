@@ -1,8 +1,0 @@
-" Localized vimrc.bundles
-
-" Elixir plugins
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'carlosgaldino/elixir-snippets'
-
-" VIM utilityl plugins
-Plugin 'bling/vim-airline'
